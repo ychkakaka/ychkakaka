@@ -1,0 +1,372 @@
+body {
+    margin: 0;
+}
+
+.head-box {
+    position: relative;
+    background-color: #f5f5f5;
+    height: 26px;
+}
+
+.head-box-child {
+    left: 20%;
+    position: absolute;
+    display: inline-block;
+}
+
+a:link, a:visited {
+    color: gray;
+}
+
+a:hover, a:active {
+    color: #cb002a;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:-webkit-any-link {
+    cursor: pointer;
+}
+
+div {
+    display: block;
+}
+
+.head_wrap {
+    display: inline;
+    margin: auto auto auto 450px;
+    float: left;
+    width: 150px;
+    height: 72px;
+}
+
+.dropdown {
+    left: 20%;
+    position: absolute;
+    display: inline-block;
+}
+
+.cus_car {
+    height: 32px;
+    padding: 0;
+}
+
+.head-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+}
+
+.dropdown:hover .head-dropdown-content {
+    display: block;
+}
+
+.head-menu-c{
+    font-family: 新宋体;
+    background-color: #fff;
+    z-index: 100;
+    border-bottom: 1px #e5e5e5 solid;
+}
+
+.head-menu-c .head-content-wrap {
+    display: block;
+    height: 72px;
+}
+
+.head-content-wrap {
+    margin: 0 auto;
+}
+
+.dropdown-user {
+    font-style: inherit;
+}
+
+.hz {
+    margin: 28px auto auto 30px;
+    float: left;
+}
+
+ul {
+    list-style: none;
+}
+
+.menu-c ul {
+    float: left;
+    height: 50px;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.head-menu-c .menu-c li {
+    height: 60px;
+    width: 50px;
+    padding: 0 14px;
+    padding-top: 0px;
+    padding-right: 14px;
+    padding-bottom: 0px;
+    padding-left: 14px;
+    margin-right: 10px;
+    font-size: 18px;
+    padding-top: 18px;
+    float: left;
+}
+
+.head-menu-c .menu-c .head-cinema a{
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: #eb002a;
+    color: #eb002a;
+}
+
+.movie-path {
+    font-size: 14px;
+    padding-top: 15px;
+    position: absolute;
+    top: 90px;
+    left: 280px;
+    height: 60px;
+    width: 990px;
+    min-width: 990px;
+    margin: 0 auto;
+}
+
+.movie-path .path {
+    float: left;
+    color: #3e3e3e;
+    line-height: 60px;
+}
+
+.movie-path .steps {
+    float: right;
+    color: #9a9a9a;
+    line-height: 60px;
+}
+.cinema-wrap {
+    position: absolute;
+    width: 990px;
+    min-width: 990px;
+    margin: 0 auto;
+    top: 180px;
+    left: 280px;
+}
+
+.cinema-wrap .filter-wrap {
+    float: left;
+    margin: 0;
+    border: 1px solid #ddd;
+    overflow: hidden;
+    zoom: 1;
+}
+
+.filter-select {
+    width: 700px;
+    height: 75px;
+    border-bottom: 2px solid #d21438;
+    padding-left: 90px;
+    background: #FFDDDC;
+    overflow: hidden;
+    margin: 0;
+}
+
+.filter-wrap .filter-select li {
+    position: relative;
+    line-height: 25px;
+    padding: 25px 60px 12px 0;
+    clear: both;
+    background: #FFF6F5;
+    height: 75px;
+}
+
+.filter-wrap .filter-select label {
+    position: absolute;
+    width: 90px;
+    left: -90px;
+    text-align: center;
+    color: #797979;
+}
+
+.filter-wrap .filter-select a, .filter-wrap .filter-select label {
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    white-space: nowrap;
+}
+
+label {
+    cursor: default;
+}
+
+.filter-wrap .search-wrap {
+    padding-left: 22px;
+}
+
+.search-input {
+    width: 219px;
+    height: 28px;
+    background: #fff;
+    color: #626060;
+    outline: 0;
+    border: 1px solid #e5e5e5;
+    border-right: none;
+    float: left;
+    text-indent: 4px;
+}
+
+.filter-wrap .search-wrap .search-btn {
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    padding: 0;
+    margin: 0;
+    background: #eb002a;
+    color: #FFF;
+}
+
+.filter-wrap .search-wrap .icon-search {
+    display: inline-block;
+    float: left;
+    width: 16px;
+    height: 16px;
+    margin: 6px 0 0 13px;
+    text-indent: -999em;
+    overflow: hidden;
+    background: url("../image/search.png") no-repeat;
+}
+
+.cinema-wrap .filter-wrap .cinema-detail li {
+    padding: 22px 19px 18px;
+    border-bottom: 1px dashed #ddd;
+    position: relative;
+    zoom: 1;
+    overflow: hidden;
+}
+
+.detail-right {
+    float: right;
+    width: 160px;
+    overflow: hidden;
+    zoom: 1;
+}
+
+.right-score {
+    color: #666;
+    text-align: right;
+}
+
+.cinema-wrap .filter-wrap .cinema-detail .detail-right .right-score strong {
+    color: #eb002a;
+    font-weight: 700;
+    font-family: Verdana;
+}
+
+.right-fav {
+    padding: 8px 0 14px;
+    text-align: right;
+}
+
+.right-buy {
+    display: block;
+    overflow: hidden;
+    zoom: 1;
+}
+
+.cinema-wrap .filter-wrap .cinema-detail .detail-right .right-buy a {
+    float: right;
+    padding: 2px 11px;
+    text-align: center;
+    line-height: 24px;
+    color: #fff;
+    background: #eb002a;
+    margin-left: 5px;
+}
+
+.detail-left {
+    position: relative;
+    float: left;
+    width: 118px;
+    height: 88px;
+    border: 1px solid #ddd;
+}
+
+.detail-left span {
+    width: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    height: inherit;
+    table-layout: fixed;
+}
+
+.detail-left img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.detail-middle {
+    width: 300px;
+    float: left;
+    padding-left: 19px;
+    color: #999;
+    overflow: hidden;
+}
+
+.middle-hd {
+    overflow: hidden;
+}
+
+.detail-middle .middle-hd h4 {
+    margin: 0;
+    display: inline-block;
+    max-width: 100%;
+    font-weight: 500;
+    font-size: 16px;
+    float: left;
+    padding-right: 14px;
+    color: #000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.detail-middle .middle-hd a {
+    color: black;
+}
+
+.detail-middle .middle-p {
+    font-size: 13px;
+    padding-top: 5px;
+}
+
+.detail-middle .middle-p .middle-p-list {
+    clear: both;
+    line-height: 22px;
+    color: #666;
+}
+
+.detail-middle .middle-p .middle-p-list span .limit-address {
+    max-width: 70%;
+    float: left;
+    display: inline-block;
+    height: 23px;
+    line-height: 23px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.detail-middle .middle-p .middle-p-list i {
+    color: #999;
+    float: left;
+    font-style: normal;
+}

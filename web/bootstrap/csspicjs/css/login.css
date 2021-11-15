@@ -1,0 +1,108 @@
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0; list-style:none;font-family: "微软雅黑"; -webkit-appearance: none;}
+a{color:#2b2b2b; text-decoration:none}
+body{
+	font-size:24px;
+	background-color:#fff;
+}
+img { border:0px;}
+
+.whole{
+	overflow:hidden;
+}
+
+header{
+	overflow:hidden;
+	width:100%;
+	height:100px;
+	background-color:#fff;
+	border-bottom:1px solid #e2e2e2;
+}
+header a.fa{
+	list-style:none;
+	float:left;
+	width:15%;
+	font-size:40px;
+	line-height:100px;
+	text-align:left;
+	text-indent: 36px;
+	color:#4ad3fe;
+}
+header span{
+	float:left;
+	width:70%;
+	text-align:center;
+	line-height:100px;
+	font-size:30px;
+}
+
+.login_contnet{
+	width:90%;
+	height:auto;
+	overflow:hidden;
+	margin:0 5%;
+}
+.commons{
+	float:left;
+	width:100%;
+	height:96px;
+	border-bottom:1px solid #e5e1e1;
+}
+.user .fa{
+	line-height:96px;
+	font-size:30px;
+	color:#f18a27;
+}
+.commons input{
+	display:inline-block;
+	width:450px;
+	line-height:92px;
+	border:none;
+	outline:none;
+	font-size:24px;
+	margin-top:2px;
+	padding-left:16px;
+	color:#331f20;
+}
+.commons input::-webkit-input-placeholder{
+	color:#837575;
+}
+.pasd .fa{
+	line-height:96px;
+	font-size:30px;
+	color:#5dd4e2;
+}
+
+.login{
+	float:left;
+	width:100%;
+	height:auto;
+	overflow:hidden;
+	background-color:#db3d3c;
+	line-height:88px;
+	font-size:28px;
+	text-align:center;
+	color:#fff;
+	margin-top:75px;
+}
+
+.common_use{
+	font-size:24px;
+	line-height:60px;
+	color:#331f20;
+}
+.register{
+	float:left;
+}
+.change{
+	float:right;
+}
+
+
+
+
+
+/****layer*****/
+.layui-m-layercont{
+	font-size:32px;
+	padding:34px !important;
+}

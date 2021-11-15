@@ -1,0 +1,330 @@
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ol,pre,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0; list-style:none; -webkit-appearance: none;}
+a{color:#2b2b2b; text-decoration:none}
+body{
+	background-color:#f7f7f8;
+}
+img { border:0px;}
+
+.seat_choose{
+	position:relative;/*相对定位*/
+	overflow:auto;
+}
+
+.seat_num {
+	font-size: 12px;
+}
+.number{
+	float:left;
+	width:4%;
+	background-color:#0CF;
+	border-radius:4px;
+	margin: 80px auto 30px auto;
+}
+.number ul{
+	overflow:hidden;
+}
+.number ul li{
+	float:left;
+	width:100%;
+	text-align:center;
+	line-height: 60px;
+	padding: 8px 0;
+	color:#fff;
+}
+
+.crossnum{
+	float:left;
+	width:100%;
+	background-color:#0CF;
+	border-radius:4px;
+	margin:3px auto;
+}
+.crossnum ul{
+	overflow:hidden;
+	padding-inline-start: 0;
+}
+.crossnum ul li{
+	float:left;
+	width:60px;
+	padding: 3px 10px;
+	text-align:center;
+	color:#fff;
+}
+
+.seats{
+	padding:0;
+	float: left;
+	width: 30%;
+	height: 400px;
+	position: relative;
+}
+.seats >ul{
+	/*width:1200px;*/
+	position: absolute;
+	top:30px;
+	left:0;
+	border: 2px dashed #32abc5;
+}
+.seats >ul >li{
+	float: left;
+	width: 70px;
+	height: 70px;
+	overflow: hidden;
+	padding: 5px 5px;
+}
+.seats ul li label{
+	display:inline-block;
+	width:60px;
+	height:60px;
+	background-image:url(../image/seats.png);
+	background-size:100% auto;
+}
+
+.seats ul li input:checked ~ label{
+	background-position:0 -60px;
+}
+.seats ul li input{
+	display: none;
+}
+
+.seats ul li.selected input ~ label{
+	background-position:0 -120px;
+}
+
+.seats ul li.bad input{
+	display:inline-block;
+	width:60px;
+	height:60px;
+	background-image:url(../image/seat_disable.png);
+	background-size:80% auto;
+	pointer-events: none;
+}
+
+/****layer*****/
+.layui-m-layercont{
+	font-size:32px;
+	padding:34px !important;
+}
+
+.touchs {
+	margin:0;
+	padding:0;
+	list-style:none;
+	-webkit-appearance: none;
+}
+
+.seat-tips {
+	padding: 15px 26px 15px 20px;
+	height: 58px;
+	background: #fff3f3;
+	font-size: 14px;
+	line-height: 58px;
+	color: #eb002a;
+	font-weight: 600;
+	clear: both;
+}
+
+.time_info {
+	background: url(../image/time.png) left 1px no-repeat;
+	width: 145px;
+	padding-left: 50px;
+	height: 58px;
+	font-size: 12px;
+	line-height: 28px;
+	float: right;
+	display: block;
+	color: #999;
+}
+
+.time_info span {
+	display: block;
+	font-family: Verdana,Geneva,sans-serif;
+	color: #eb002a;
+	font-size: 24px;
+	font-weight: 700;
+}
+
+.time_info s {
+	text-decoration: none;
+}
+
+.order-table table {
+	text-align: center;
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0;
+	display: table;
+	box-sizing: border-box;
+	text-indent: initial;
+	border-color: grey;
+}
+
+tbody {
+	display: table-row-group;
+	vertical-align: middle;
+	border-color: inherit;
+}
+
+.order-table tr {
+	display: table-row;
+	vertical-align: inherit;
+	border-color: inherit;
+}
+
+.menu {
+	height: 40px;
+	line-height: 40px;
+	background: #efefef;
+}
+.movie {
+	width: 270px;
+}
+
+.order-table table td {
+	border: 1px solid #ddd;
+}
+
+.changci {
+	width: 240px;
+}
+
+.seat {
+	width: 120px;
+}
+
+.menu .money {
+	width: 128px;
+}
+
+.phone_tip {
+	width: 230px;
+}
+
+.info {
+	color: #999;
+}
+
+.info .movie-wrap {
+	padding: 20px;
+	overflow: hidden;
+}
+
+.info .movie-wrap img {
+	display: block;
+	margin-right: 18px;
+}
+
+.movie-wrap ul {
+	line-height: 20px;
+	float: left;
+	display: block;
+	text-align: left;
+}
+
+.movie_name {
+	color: #333;
+	font-weight: 700;
+}
+
+.movie-wrap ul li {
+	width: 20px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.cinema-wrap {
+	color: #333;
+	font-size: 14px;
+	padding: 20px;
+	line-height: 35px;
+}
+
+.cinema_name {
+	width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.cinema-wrap .time {
+	line-height: 50px;
+	color: #eb002a;
+}
+
+.seat_detail {
+	padding: 10px;
+}
+
+.count {
+	font-size: 14px;
+	height: 30px;
+	line-height: 30px;
+}
+
+.sit {
+	padding: 4px 0;
+	margin: 10px 0;
+	border: 1px solid #ddd;
+}
+
+.money_wrap {
+	padding: 25px;
+}
+
+.money {
+	margin: 20px 0;
+}
+
+.main {
+	font-family: Verdana,Geneva,sans-serif;
+	display: block;
+	font-size: 22px;
+	color: #eb002a;
+}
+
+.phone_wrap {
+	line-height: 30px;
+	padding: 20px;
+	text-align: left;
+}
+
+.phone {
+	color: #333;
+	text-align: center;
+	font-family: Verdana,Geneva,sans-serif;
+	display: block;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.price_info {
+	color: #aaa;
+	text-align: right;
+	height: 80px;
+	clear: both;
+	line-height: 80px;
+}
+
+.curr_money {
+	padding: 0 10px;
+}
+
+.M-price {
+	font-size: 22px;
+	font-weight: 600;
+	padding: 0 5px;
+	color: #eb002a;
+	font-family: Verdana,Geneva,sans-serif;
+}
+
+.submit-button {
+	display: block;
+	font-size: 14px;
+	background-color: #eb002a;
+	width: 220px;
+	height: 42px;
+	line-height: 42px;
+	float: right;
+	color: #fff;
+	text-align: center;
+}
